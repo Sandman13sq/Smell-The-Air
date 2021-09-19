@@ -1,0 +1,1 @@
+setGameFlag(Game_Flag.inside);

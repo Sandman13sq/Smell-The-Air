@@ -1,0 +1,29 @@
+/// <- This is a habit, don't mind this
+
+Outside
+	Windows can be opened inside
+		Adds temporary health?
+		100% Requirement?
+	When outside, more mobility is awarded
+
+2-3 Sections
+	Inside
+	Outside
+	Inside w/Boss
+
+4 Enemies
+	A Bat
+	A Carpet Monster
+	A Sneeze Guy
+	A Lamp Cover
+
+Movement
+	Jump
+	Air Dash
+		Wave Dash
+
+Attacks
+	Shoot
+	Charge Shot
+	Charge Dash
+		Down + Release
