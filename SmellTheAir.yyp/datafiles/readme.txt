@@ -1,6 +1,6 @@
 Smell The Air - By Dreamer/zacal169
 
-Smell The Air! A short platformer where Light races to the finish to stop the dastardly Shade from sucking the shine out of the sky! Defeat his nosy minions and race to the finish in this grand, feature film length, two-to-three minute experience!
+Smell The Air! A short platformer where Light fights to stop the dastardly Shade from sucking the shine out of the sky! Defeat his nosy minions and race to the finish in this grand, feature film length, two-to-three minute experience!
 
 Originally made for the olc::BeatTheBoredom two week game jam hosted by javidx9
 

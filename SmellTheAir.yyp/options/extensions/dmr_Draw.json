@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "dmr_Draw",
+    "path": "extensions/dmr_Draw/dmr_Draw.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

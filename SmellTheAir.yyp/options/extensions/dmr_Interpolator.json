@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "dmr_Interpolator",
+    "path": "extensions/dmr_Interpolator/dmr_Interpolator.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

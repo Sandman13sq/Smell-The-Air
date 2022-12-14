@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mus_boss",
+  "conversionMode": 0,
   "compression": 3,
   "volume": 1.0,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mus_boss",
-  "duration": 0.0,
+  "duration": 26.915895,
   "parent": {
     "name": "BGM",
     "path": "folders/Sounds/BGM.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "mus_boss",
-  "tags": [],
-  "resourceType": "GMSound",
 }

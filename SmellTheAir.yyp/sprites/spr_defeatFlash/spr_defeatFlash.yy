@@ -1,8 +1,7 @@
 {
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_defeatFlash",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -18,21 +17,24 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"caf07b96-e802-40ca-b596-77b373496eed","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"caf07b96-e802-40ca-b596-77b373496eed","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"LayerId":{"name":"5a935f70-d08a-4ce2-b6e6-4faf1808f892","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_defeatFlash","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"resourceVersion":"1.0","name":"caf07b96-e802-40ca-b596-77b373496eed","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f79f486e-3d2b-4306-965f-842d6e347c51","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f79f486e-3d2b-4306-965f-842d6e347c51","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"LayerId":{"name":"5a935f70-d08a-4ce2-b6e6-4faf1808f892","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_defeatFlash","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"resourceVersion":"1.0","name":"f79f486e-3d2b-4306-965f-842d6e347c51","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"caf07b96-e802-40ca-b596-77b373496eed",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f79f486e-3d2b-4306-965f-842d6e347c51",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_defeatFlash","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"79c43494-26b9-42ea-915f-18fdbba007bb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"caf07b96-e802-40ca-b596-77b373496eed","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e3956171-1b31-448b-b6c9-73902136a5ef","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f79f486e-3d2b-4306-965f-842d6e347c51","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_defeatFlash","path":"sprites/spr_defeatFlash/spr_defeatFlash.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5a935f70-d08a-4ce2-b6e6-4faf1808f892","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a935f70-d08a-4ce2-b6e6-4faf1808f892","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Light",
     "path": "folders/Sprites/Light.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_defeatFlash",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

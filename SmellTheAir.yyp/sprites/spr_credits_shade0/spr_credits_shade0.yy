@@ -1,8 +1,7 @@
 {
-  "textureGroupId": {
-    "name": "Credits",
-    "path": "texturegroups/Credits",
-  },
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_credits_shade0",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -18,18 +17,23 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 333,
   "height": 427,
+  "textureGroupId": {
+    "name": "Credits",
+    "path": "texturegroups/Credits",
+  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"76980549-388d-4187-a5e5-863311a4c1ac","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"76980549-388d-4187-a5e5-863311a4c1ac","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},"LayerId":{"name":"30a4b8d4-5496-4bfd-8386-781a53a43dac","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_credits_shade0","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},"resourceVersion":"1.0","name":"76980549-388d-4187-a5e5-863311a4c1ac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76980549-388d-4187-a5e5-863311a4c1ac",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_credits_shade0","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7e9e7b9b-5648-4de8-863c-7dbc9a55c9fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76980549-388d-4187-a5e5-863311a4c1ac","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 213,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_credits_shade0","path":"sprites/spr_credits_shade0/spr_credits_shade0.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"30a4b8d4-5496-4bfd-8386-781a53a43dac","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"30a4b8d4-5496-4bfd-8386-781a53a43dac","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Credits",
     "path": "folders/Sprites/Credits.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_credits_shade0",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

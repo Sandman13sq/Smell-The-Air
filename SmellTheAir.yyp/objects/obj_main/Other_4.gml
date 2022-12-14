@@ -57,18 +57,22 @@ for (var _lyrIndex = 0; _lyrIndex < _lyrCount; _lyrIndex++)
 	{
 		layer_set_visible(_lyr, false);
 	}
-	else if layer_get_element_type(layer_get_element(_lyr, 0)) == layerelementtype_tilemap
+	
+	else if ( array_length( layer_get_all_elements(_lyr) ) > 0 )
 	{
-		layer_depth(_lyr, Layer_Depth.BG + _d);
-		_d++;
-	}
-	else if layer_get_element_type(layer_get_element(_lyr, 0)) == layerelementtype_instance
-	{
-		var _map = ds_map_create(), _d = layer_get_depth(_lyr);
+		if layer_get_element_type(layer_get_element(_lyr, 0)) == layerelementtype_tilemap
+		{
+			layer_depth(_lyr, Layer_Depth.BG + _d);
+			_d++;
+		}
+		else if layer_get_element_type(layer_get_element(_lyr, 0)) == layerelementtype_instance
+		{
+			var _map = ds_map_create(), _d = layer_get_depth(_lyr);
 		
-		ds_map_destroy(_map);
+			ds_map_destroy(_map);
 		
-		with obj_bk {depth = Layer_Depth.outside;}
+			with obj_bk {depth = Layer_Depth.outside;}
+		}
 	}
 }
 

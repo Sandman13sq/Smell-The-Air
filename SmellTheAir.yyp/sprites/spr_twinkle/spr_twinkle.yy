@@ -1,8 +1,7 @@
 {
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_twinkle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -18,24 +17,25 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 7,
   "height": 7,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4fb878f0-7fb6-4353-bd7e-6cec14db81f9","path":"sprites/spr_twinkle/spr_twinkle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4fb878f0-7fb6-4353-bd7e-6cec14db81f9","path":"sprites/spr_twinkle/spr_twinkle.yy",},"LayerId":{"name":"62bd9d86-e6bb-4e47-bdf2-1a4a0ad5712d","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_twinkle","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","name":"4fb878f0-7fb6-4353-bd7e-6cec14db81f9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"72903ba9-a0ea-4082-8342-13bf3a9e52e0","path":"sprites/spr_twinkle/spr_twinkle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"72903ba9-a0ea-4082-8342-13bf3a9e52e0","path":"sprites/spr_twinkle/spr_twinkle.yy",},"LayerId":{"name":"62bd9d86-e6bb-4e47-bdf2-1a4a0ad5712d","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_twinkle","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","name":"72903ba9-a0ea-4082-8342-13bf3a9e52e0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9cc52d8b-550b-40f4-b796-5fe3e67029a1","path":"sprites/spr_twinkle/spr_twinkle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9cc52d8b-550b-40f4-b796-5fe3e67029a1","path":"sprites/spr_twinkle/spr_twinkle.yy",},"LayerId":{"name":"62bd9d86-e6bb-4e47-bdf2-1a4a0ad5712d","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_twinkle","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","name":"9cc52d8b-550b-40f4-b796-5fe3e67029a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4fb878f0-7fb6-4353-bd7e-6cec14db81f9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"72903ba9-a0ea-4082-8342-13bf3a9e52e0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cc52d8b-550b-40f4-b796-5fe3e67029a1",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_twinkle","path":"sprites/spr_twinkle/spr_twinkle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"259744b9-b8da-41e4-aefb-b6278b1ee412","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4fb878f0-7fb6-4353-bd7e-6cec14db81f9","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"43837ded-16cf-4d33-b98a-9b79837ea832","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72903ba9-a0ea-4082-8342-13bf3a9e52e0","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ba85676d-76c9-4e3f-9b03-7d3a4a7b5352","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cc52d8b-550b-40f4-b796-5fe3e67029a1","path":"sprites/spr_twinkle/spr_twinkle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 3,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_twinkle","path":"sprites/spr_twinkle/spr_twinkle.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62bd9d86-e6bb-4e47-bdf2-1a4a0ad5712d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"62bd9d86-e6bb-4e47-bdf2-1a4a0ad5712d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_twinkle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
